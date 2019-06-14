@@ -1,12 +1,12 @@
 {
-  "name": "react-native-rave",
+  "name": "react-native-rave-debug",
   "main": "Rave.js",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "author": "Oluwole Adebiyi, Tofunmi Kupoluyi,Flutterwave Developers",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Flutterwave/rave-react-native"
+    "url": "git+https://github.com/Flutterwave/rave-react-native.git"
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -16,10 +16,16 @@
     "native-base": "^2.8.1",
     "node-forge": "^0.7.5",
     "prop-types": "^15.6.2",
-    "react": "16.3.1",
-    "react-native": "~0.55.2",
     "react-native-elements": "^1.1.0",
     "react-navigation": "^3.0.9",
     "react-native-keyboard-aware-scroll-view": "^0.6.0"
+  },
+  "description": "This is the react native SDK for Rave By [Flutterwave.](https://rave.flutterwave.com)",
+  "bugs": {
+    "url": "https://github.com/Flutterwave/rave-react-native/issues"
+  },
+  "homepage": "https://github.com/Flutterwave/rave-react-native#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
